@@ -1,5 +1,9 @@
+#!/usr/bin/env python3.5
+
 from iexfinance import Stock
 from iexfinance import get_available_symbols as gas
+
+# Documentation on iexfinance: https://addisonlynch.github.io/iexfinance/stable/ref.html
 
 # load all symbols - list 
 symbols = gas()
